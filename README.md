@@ -6,6 +6,7 @@ Java version: 1.8
 
 **Install / Build docker container** <br />
 mvn install or docker build . -t markoshlima/facade-k8s
+docker build . -t markoshlima/facade-k8s --platform linux/amd64 //EKS
 
 **Run application** <br />
 mvn spring-boot:run
