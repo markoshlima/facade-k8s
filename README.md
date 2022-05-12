@@ -5,7 +5,7 @@ Apache Maven 3.8.4 <br />
 Java version: 1.8
 
 **Install / Build docker container** <br />
-mvn install or docker build . -t markoshlima/facade-k8s
+mvn install or docker build . -t markoshlima/facade-k8s<br />
 docker build . -t markoshlima/facade-k8s --platform linux/amd64 //EKS
 
 **Run application** <br />
